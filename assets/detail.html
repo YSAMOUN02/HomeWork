@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- ICON Awsome  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -11,7 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- CSS  -->
     <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- Bootstrap  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,6 +25,7 @@
     <title>E-commerce Store</title>
   </head>
   <body>
+    <!-- Nav Bar  -->
     <header class="nav">
       <div class="nav-top">
         <div class="site-info">
@@ -49,17 +54,20 @@
       <div class="nav-bottom">
         <div class="nav-bottom-left">
           <div class="logo">
-            <img src="/assets/image/image-removebg-preview.png" alt="" />
+            <a href="/assets/index.html"> <img src="/assets/image/image-removebg-preview.png" alt="" /></a>
           </div>
-          <div class="website_title"><span>Tsuit.Fashion</span></div>
+          <div class="website_title"><span><a href="/assets/index.html">Tsuit.Fashion</a></span></div>
           <div class="menu">
             <ul>
-              <li>Home</li>
-              <li>Shop <i class="fa-solid fa-chevron-down"></i></li>
-              <li>About</li>
-              <li>Blog</li>
-              <li>Contact</li>
-              <li>Pages</li>
+              <li><a href="/assets/index.html">Home</a></li>
+              <li><a href="/assets/category.html">Shop</a> </li>
+              <li><a href="/assets/category.html">About</a></li>
+              <li><a href="/assets/category.html">Blog</a></li>
+              <li><a href="/assets/category.html">Contact</a></li>
+              <li><a href="/assets/category.html">Pages</a></li>
+              <li id="mobile" onclick="show_nav_mobile()">
+                <i class="fa-solid fa-bars"></i>
+              </li>
             </ul>
           </div>
         </div>
@@ -71,38 +79,572 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
           <div class="shop">
-            <i class="fa-solid fa-cart-shopping"></i><span>1</span>
+            <i class="fa-solid fa-cart-shopping"></i><span id="shop_val" >1</span>
           </div>
           <div class="like">
             <i class="fa-regular fa-heart"></i><span>1</span>
           </div>
         </div>
       </div>
+
+      <div class="mobile_nav">
+        <div class="inner_mobile">
+          <div>
+            <div class="website_title">
+              <span>
+                <img
+                  width="70px"
+                  src="/assets/image/image-removebg-preview.png"
+                  alt=""
+                />Tsuit.Fashion</span
+              >
+            </div>
+            <form action="">
+              <div class="search_mobile">
+                <input type="text" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </form>
+            <ul>
+              <li><a href="/assets/index.html">Home</a></li>
+              <li><a href="/assets/category.html">Shop</a> <i class="fa-solid fa-chevron-down"></i></li>
+              <li><a href="/assets/category.html">About</a></li>
+              <li><a href="/assets/category.html">Blog</a></li>
+              <li><a href="/assets/category.html">Contact</a></li>
+              <li><a href="/assets/category.html">Pages</a></li>
+            </ul>
+          </div>
+
+          <div class="mobile_tool">
+            <div class="login">
+              <a href="#"><i class="fa-regular fa-user"></i> Login/Register</a>
+            </div>
+
+            <div class="shop">
+              <i class="fa-solid fa-cart-shopping"></i><span>1</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <!-- Main Product Detail Section  -->
+      <section>
+        <div class="detail_box">
+          <div class="detail_left">
+            <div class="upper_part">
+              <div class="back_to_homepage">
+                <i class="fa-solid fa-arrow-left-long"></i>
+              </div>
+              <div class="title_detail">
+                <h2>Animaion T-Shirt</h2>
+                <span>$149.99</span>
+              </div>
+              <div class="rate">
+                <div class="point">
+                  <i class="fa-solid fa-star" style="color: #ffd500"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                  ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                </div>
+                <span>5.0/5</span>
+              </div>
+              <articl class="mt-3">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  aspernatur similique doloribus sed explicabo, nostrum aperiam.
+                  Quia voluptates quibusdam saepe.
+                </p>
+              </articl>
+              <div class="detail_tool mb-5">
+                <!-- COLOR OPTION  -->
+                <div class="color_detial">
+                  <div
+                    class="color"
+                    style="
+                      background-color: grey;
+                      border: 1px solid rgb(79, 78, 78);
+                    "
+                  ></div>
+                  <div
+                    class="color"
+                    style="
+                      background-color: rgb(255, 0, 0);
+                      border: 1px solid rgb(255, 193, 193);
+                    "
+                  ></div>
+                  <div
+                    class="color"
+                    style="
+                      background-color: rgb(174, 193, 255);
+                      border: 1px solid rgb(173, 229, 251);
+                    "
+                  ></div>
+                  <div
+                    class="color"
+                    style="
+                      background-color: rgb(255, 214, 254);
+                      border: 1px solid rgb(255, 117, 202);
+                    "
+                  ></div>
+                </div>
+                <div class="quantity_detail">
+                  <button onclick="minu_qty()">-</button>
+                  <span id="qty">1</span>
+                  <button onclick="plus_qty()">+</button>
+                </div>
+                <div class="add_to_chart">
+                  <button onclick="change_data()" >Add to Cart</button>
+                </div>
+              </div>
+              <span 
+                >Free 3-5 day shipping .Tool-free assembly . 30-day trail</span
+              >
+            </div>
+            <div class="lower_part">
+              <div class="interest">
+                <i
+                  style="color: var(--primary)"
+                  class="fa-regular fa-heart"
+                ></i>
+                <button>Add to Wishlist</button>
+                <button>
+                  <i style="color: var(--primary)" class="fa-solid fa-plus"></i>
+                </button>
+              </div>
+
+              <div class="socail_detial">
+                <i
+                  style="color: var(--primary)"
+                  class="fa-brands fa-facebook"
+                ></i>
+                <i style="color: var(--primary)" class="fa-brands fa-skype"></i>
+                <i
+                  style="color: var(--primary)"
+                  class="fa-brands fa-pinterest"
+                ></i>
+                <i
+                  style="color: var(--primary)"
+                  class="fa-brands fa-square-instagram"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="detail_right">
+            <div class="main_product">
+              <img id="main_product"
+                src="https://cdn.pixabay.com/photo/2016/11/14/03/44/girls-1822521_640.jpg"
+                alt=""
+              />
+            </div>
+
+            <!-- ALL VARAINT PRODUCT  -->
+            <div class="sub_product">
+              <div class="inner_sub_product">
+                <div class="product_variant" >
+                  <img onclick="change('v1')"  id="v1"
+                    src="https://cdn.pixabay.com/photo/2016/11/14/03/43/kimono-1822520_640.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="product_variant">
+                  <img onclick="change('v2')" id="v2"
+                    src="https://cdn.pixabay.com/photo/2016/11/14/03/11/geisha-1822467_640.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="product_variant">
+                  <img onclick="change('v3')" id="v3"
+                    src="https://cdn.pixabay.com/photo/2022/09/25/09/54/kimono-7477942_640.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="product_variant">
+                  <img onclick="change('v4')" id="v4"
+                    src="https://cdn.pixabay.com/photo/2020/08/21/22/25/kimono-5507132_1280.jpg"
+                    alt=""
+                  />
+                </div>
+                <div onclick="change('v5')" class="product_variant">
+                  <img id="v5"
+                    src="https://cdn.pixabay.com/photo/2021/09/08/23/55/japan-6608075_640.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comment and Order Section  -->
+      <section class="mt-5">
+        <div class="nav_comment">
+          <ul>
+            <li>Product Detail</li>
+            <li class="selected">Rating & Reviews</li>
+            <li>FAQs</li>
+          </ul>
+          <div class="content_comment">
+            <div class="header_comment mt-3">
+              <span>ALL Reviews (45)</span>
+              <div class="comment_sort">
+                <button><i class="fa-solid fa-sliders"></i></button>
+                <button>
+                  Lastest &ensp;<i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <button>Write a Review</button>
+              </div>
+            </div>
+            <div class="body_comment mt-3">
+              <div class="feedback">
+                <div class="rate-feedback">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <span class="name_user"
+                  >Samantha D. &ensp;<i
+                    class="fa-solid fa-circle-check"
+                    style="color: #14ad00"
+                  ></i
+                ></span>
+                <p>
+                  &ensp;
+                  fuga voluptates obcaecati tenetur tempora officia esse
+                  accusantium.
+                </p>
+                <span>Posted on August 14,2024</span>
+              </div>
+              <div class="feedback">
+                <div class="rate-feedback">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <span class="name_user"
+                  >Samantha D. &ensp;<i
+                    class="fa-solid fa-circle-check"
+                    style="color: #14ad00"
+                  ></i
+                ></span>
+                <p>
+                  &ensp;
+                  fuga voluptates obcaecati tenetur tempora officia esse
+                  accusantium.
+                </p>
+                <span>Posted on August 14,2024</span>
+              </div>
+              <div class="feedback">
+                <div class="rate-feedback">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <span class="name_user"
+                  >Samantha D. &ensp;<i
+                    class="fa-solid fa-circle-check"
+                    style="color: #14ad00"
+                  ></i
+                ></span>
+                <p>
+                  &ensp;
+                  fuga voluptates obcaecati tenetur tempora officia esse
+                  accusantium.
+                </p>
+                <span>Posted on August 14,2024</span>
+              </div>
+              <div class="feedback">
+                <div class="rate-feedback">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <span class="name_user"
+                  >Samantha D. &ensp;<i
+                    class="fa-solid fa-circle-check"
+                    style="color: #14ad00"
+                  ></i
+                ></span>
+                <p>
+                  &ensp;
+                  fuga voluptates obcaecati tenetur tempora officia esse
+                  accusantium.
+                </p>
+                <span>Posted on August 14,2024</span>
+              </div>
+              <div class="feedback">
+                <div class="rate-feedback">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <span class="name_user"
+                  >Samantha D. &ensp;<i
+                    class="fa-solid fa-circle-check"
+                    style="color: #14ad00"
+                  ></i
+                ></span>
+                <p>
+                  &ensp;
+                  fuga voluptates obcaecati tenetur tempora officia esse
+                  accusantium.
+                </p>
+                <span>Posted on August 14,2024</span>
+              </div>
+              <div class="feedback">
+                <div class="rate-feedback">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <span class="name_user"
+                  >Samantha D. &ensp;<i
+                    class="fa-solid fa-circle-check"
+                    style="color: #14ad00"
+                  ></i
+                ></span>
+                <p>
+                  &ensp;
+                  fuga voluptates obcaecati tenetur tempora officia esse
+                  accusantium.
+                </p>
+                <span>Posted on August 14,2024</span>
+              </div>
+              <div class="feedback">
+                <div class="rate-feedback">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <span class="name_user"
+                  >Samantha D. &ensp;<i
+                    class="fa-solid fa-circle-check"
+                    style="color: #14ad00"
+                  ></i
+                ></span>
+                <p>
+                  &ensp;
+                  fuga voluptates obcaecati tenetur tempora officia esse
+                  accusantium.
+                </p>
+                <span>Posted on August 14,2024</span>
+              </div>
+              <div class="feedback">
+                <div class="rate-feedback">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <span class="name_user"
+                  >Samantha D. &ensp;<i
+                    class="fa-solid fa-circle-check"
+                    style="color: #14ad00"
+                  ></i
+                ></span>
+                <p>
+                  &ensp;
+                  fuga voluptates obcaecati tenetur tempora officia esse
+                  accusantium.
+                </p>
+                <span>Posted on August 14,2024</span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- section 3  Assesory-->
+       <section class="man_outfit_container mt-5">  
+        <div class="title-section"><h1>Top Selling</h1></div>
+        <div class="container-man-oufit mt-3">
+            <div class="box">
+                <div class="image">
+                    <a href="/assets/detail.html">
+                        <img
+                        src="https://cdn.pixabay.com/photo/2024/05/04/12/34/book-8738994_640.png"
+                        alt=""
+                      />
+                    </a>
+                </div>
+                <div class="content">
+                    <div class="float-label">HOT</div>
+                    <a href="/assets/detail.html">
+                        <div class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="rate">
+                          <div class="point">
+                            <i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                          </div>
+                          <span>5.0/5</span>
+                        </div>
+                        <div class="price-product">
+                            <span>$120  <del>$150</del></span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="box">
+                <div class="image">
+                    <a href="/assets/detail.html">
+                        <img
+                        src="https://cdn.pixabay.com/photo/2017/11/13/20/41/tie-2946772_640.jpg"
+                        alt=""
+                      />
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="/assets/detail.html">
+                        <div class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="rate">
+                          <div class="point">
+                            <i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                          </div>
+                          <span>5.0/5</span>
+                        </div>
+                        <div class="price-product">
+                            <span>$120  <del>$150</del></span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="box">
+                <div class="image">
+                    <a href="/assets/detail.html">
+                        <img
+                        src="https://cdn.pixabay.com/photo/2022/04/01/03/20/timepiece-7103973_640.jpg"
+                        alt=""
+                      />
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="/assets/detail.html">
+                        <div class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="rate">
+                          <div class="point">
+                            <i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                          </div>
+                          <span>5.0/5</span>
+                        </div>
+                        <div class="price-product">
+                            <span>$120  <del>$150</del></span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+              <div class="box">
+                  <div class="image">
+                    <a href="/assets/detail.html">
+                        <img
+                        src="https://cdn.pixabay.com/photo/2023/09/02/07/22/ai-generated-8228360_640.jpg"
+                        alt=""
+                      />
+                    </a>
+                </div>
+                <div class="content">
+                    <div class="float-label">HOT</div>
+                    <a href="/assets/detail.html">
+                        <div class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="rate">
+                          <div class="point">
+                            <i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                          </div>
+                          <span>5.0/5</span>
+                        </div>
+                        <div class="price-product">
+                            <span>$120  <del>$150</del></span>
+                        </div>
+                    </a>
+                </div>
+              </div>
+        </div>
+   </section>
+    </main>
 
     <footer class="footer">
       <div class="title-footer">
         <span>TSuit.Fashion</span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, hic.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+          hic.
+        </p>
       </div>
 
       <div class="info-footer">
-        <span >Information</span>
+        <span>Information</span>
         <a href="#">About</a>
         <a href="#">Product</a>
         <a href="#">Blog</a>
       </div>
       <div class="info-footer">
-        <span >Companny</span>
+        <span>Companny</span>
         <a href="#">Community</a>
         <a href="#">Career</a>
         <a href="#">Our Story</a>
       </div>
       <div class="info-footer">
-        <span >Contact</span>
-        <a href="#">Getting Started</a><a href="#">Pricing</a><a href="#">Resources</a>
+        <span>Contact</span>
+        <a href="#">Getting Started</a><a href="#">Pricing</a
+        ><a href="#">Resources</a>
       </div>
     </footer>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>

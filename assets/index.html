@@ -49,17 +49,20 @@
       <div class="nav-bottom">
         <div class="nav-bottom-left">
           <div class="logo">
-            <img src="/assets/image/image-removebg-preview.png" alt="" />
+            <a href="/assets/index.html"> <img src="/assets/image/image-removebg-preview.png" alt="" /></a>
           </div>
-          <div class="website_title"><span>Tsuit.Fashion</span></div>
+          <div class="website_title"><span><a href="/assets/index.html">Tsuit.Fashion</a></span></div>
           <div class="menu">
             <ul>
-              <li>Home</li>
-              <li>Shop <i class="fa-solid fa-chevron-down"></i></li>
-              <li>About</li>
-              <li>Blog</li>
-              <li>Contact</li>
-              <li>Pages</li>
+              <li><a href="/assets/index.html">Home</a></li>
+              <li><a href="/assets/category.html">Shop</a></li>
+              <li><a href="/assets/category.html">About</a></li>
+              <li><a href="/assets/category.html">Blog</a></li>
+              <li><a href="/assets/category.html">Contact</a></li>
+              <li><a href="/assets/category.html">Pages</a></li>
+              <li id="mobile" onclick="show_nav_mobile()">
+                <i class="fa-solid fa-bars"></i>
+              </li>
             </ul>
           </div>
         </div>
@@ -78,6 +81,46 @@
           </div>
         </div>
       </div>
+
+      <div class="mobile_nav">
+        <div class="inner_mobile">
+          <div>
+            <div class="website_title">
+              <span>
+                <img
+                  width="70px"
+                  src="/assets/image/image-removebg-preview.png"
+                  alt=""
+                />Tsuit.Fashion</span
+              >
+            </div>
+            <form action="">
+              <div class="search_mobile">
+                <input type="text" />
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </form>
+            <ul>
+              <li><a href="/assets/index.html">Home</a></li>
+              <li><a href="/assets/category.html">Shop</a> <i class="fa-solid fa-chevron-down"></i></li>
+              <li><a href="/assets/category.html">About</a></li>
+              <li><a href="/assets/category.html">Blog</a></li>
+              <li><a href="/assets/category.html">Contact</a></li>
+              <li><a href="/assets/category.html">Pages</a></li>
+            </ul>
+          </div>
+
+          <div class="mobile_tool">
+            <div class="login">
+              <a href="#"><i class="fa-regular fa-user"></i> Login/Register</a>
+            </div>
+
+            <div class="shop">
+              <i class="fa-solid fa-cart-shopping"></i><span>1</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <!-- Hero Section  -->
@@ -85,28 +128,32 @@
       <section>
         <div class="hero-section">
           <div class="box span-row">
-            <a href="#"><img
+            <a href="/assets/detail.html"
+              ><img
                 src="https://zandokh.com/image/catalog/products/2024-07/2222405714/New/XING.VX-15.jpg"
                 alt=""
-              /></a>
+            /></a>
           </div>
           <div class="box col-span">
-           <a href="#"> <img
-            src="https://cdn.pixabay.com/photo/2017/09/01/21/53/sunglasses-2705642_640.jpg"
-            alt=""
-          /></a>
+            <a href="/assets/detail.html">
+              <img
+                src="https://cdn.pixabay.com/photo/2017/09/01/21/53/sunglasses-2705642_640.jpg"
+                alt=""
+            /></a>
           </div>
           <div class="box">
-            <a href="#"> <img
+            <a href="/assets/detail.html">
+              <img
                 src="https://cdn.pixabay.com/photo/2016/11/29/07/16/balancing-1868051_640.jpg"
                 alt=""
-              /></a>
+            /></a>
           </div>
           <div class="box">
-            <a href="#"><img
+            <a href="#"
+              ><img
                 src="https://cdn.pixabay.com/photo/2015/07/07/23/40/fashion-835219_640.jpg"
                 alt=""
-              /></a>
+            /></a>
           </div>
         </div>
       </section>
@@ -114,7 +161,6 @@
       <section class="mt-5">
         <div class="title-section"><h1>New Arrival</h1></div>
         <div class="section-arrival mt-3">
-            
           <div class="arrival-left">
             <form action="">
               <div class="filters filter">
@@ -246,529 +292,531 @@
           <div class="arrival-right">
             <div class="box">
               <div class="image">
-                <a href="#">
-                    <img
+                <a href="/assets/detail.html">
+                  <img
                     src="https://cdn.pixabay.com/photo/2021/07/21/04/35/woman-6482214_640.jpg"
                     alt=""
                   />
                 </a>
               </div>
               <div class="content">
-                <a href="#">
-                    <div class="title">Lorem ipsum dolor sit amet.</div>
-                    <div class="rate">
-                      <div class="point">
-                        <i class="fa-solid fa-star" style="color: #ffd500"></i
-                        ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                        ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                        ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                        ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                      </div>
-                      <span>5.0/5</span>
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
                     </div>
-                    <div class="price-product">
-                        <span>$120  <del>$150</del></span>
-                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
                 </a>
               </div>
             </div>
             <div class="box">
-                <div class="image">
-                    <a href="#">
-                        <img
-                        src="https://cdn.pixabay.com/photo/2019/04/03/18/11/woman-4100999_640.jpg"
-                        alt=""
-                      />
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="#">
-                        <div class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="rate">
-                          <div class="point">
-                            <i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                          </div>
-                          <span>5.0/5</span>
-                        </div>
-                        <div class="price-product">
-                            <span>$120  <del>$150</del></span>
-                        </div>
-                    </a>
-                </div>
+              <div class="image">
+                <a href="/assets/detail.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2019/04/03/18/11/woman-4100999_640.jpg"
+                    alt=""
+                  />
+                </a>
               </div>
-              <div class="box">
-                <div class="image">
-                    <a href="#"> <img
-                        src="https://cdn.pixabay.com/photo/2015/01/15/13/06/woman-600238_640.jpg"
-                        alt=""
-                      /></a>
-                </div>
-                <div class="content">
-                    <div class="float-label">HOT</div>
-                    <a href="#">
-                        <div class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="rate">
-                          <div class="point">
-                            <i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                          </div>
-                          <span>5.0/5</span>
-                        </div>
-                        <div class="price-product">
-                            <span>$120  <del>$150</del></span>
-                        </div>
-                    </a>
-                </div>
+              <div class="content">
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
+                </a>
               </div>
-              <div class="box">
-                <div class="image">
-                    <a href="#">
-                        <img
-                        src="https://cdn.pixabay.com/photo/2016/11/21/16/01/woman-1846127_640.jpg"
-                        alt=""
-                      />
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="#">
-                        <div class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="rate">
-                          <div class="point">
-                            <i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                          </div>
-                          <span>5.0/5</span>
-                        </div>
-                        <div class="price-product">
-                            <span>$120  <del>$150</del></span>
-                        </div>
-                    </a>
-                </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <a href="/assets/detail.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/01/15/13/06/woman-600238_640.jpg"
+                    alt=""
+                /></a>
               </div>
-              <div class="box">
-                <div class="image">
-                    <a href="#">
-                        <img
-                        src="https://cdn.pixabay.com/photo/2019/06/11/10/56/girl-4266712_640.jpg"
-                        alt=""
-                      />
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="#">
-                        <div class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="rate">
-                          <div class="point">
-                            <i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                          </div>
-                          <span>5.0/5</span>
-                        </div>
-                        <div class="price-product">
-                            <span>$120  <del>$150</del></span>
-                        </div>
-                    </a>
-                </div>
+              <div class="content">
+                <div class="float-label">HOT</div>
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
+                </a>
               </div>
-              <div class="box">
-                <div class="image">
-                    <a href="#">
-                        <img
-                        src="https://cdn.pixabay.com/photo/2023/10/23/03/03/fashion-8335213_640.jpg"
-                        alt=""
-                      />
-                    </a>
-                </div>
-                <div class="content">
-                    <div class="float-label-grey">Sold Out</div>
-                    <a href="#">
-                        <div class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="rate">
-                          <div class="point">
-                            <i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                          </div>
-                          <span>5.0/5</span>
-                        </div>
-                        <div class="price-product">
-                            <span>$120  <del>$150</del></span>
-                        </div>
-                    </a>
-                </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <a href="/assets/detail.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2016/11/21/16/01/woman-1846127_640.jpg"
+                    alt=""
+                  />
+                </a>
               </div>
-              <div class="box">
-                <div class="image">
-                    <a href="#">
-                        <img
-                        src="https://cdn.pixabay.com/photo/2016/10/16/04/05/girl-1744349_640.jpg"
-                        alt=""
-                      />
-                    </a>
-                </div>
-                <div class="content">
-                          <div class="float-label">HOT</div>
-                    <a href="#">
-                        <div class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="rate">
-                          <div class="point">
-                            <i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                          </div>
-                          <span>5.0/5</span>
-                        </div>
-                        <div class="price-product">
-                            <span>$120  <del>$150</del></span>
-                        </div>
-                    </a>
-                </div>
+              <div class="content">
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
+                </a>
               </div>
-              <div class="box">
-                <div class="image">
-                    <a href="#">
-                        <img
-                        src="https://cdn.pixabay.com/photo/2016/11/23/17/25/woman-1853939_640.jpg"
-                        alt=""
-                      />
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="#">
-                        <div class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="rate">
-                          <div class="point">
-                            <i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                          </div>
-                          <span>5.0/5</span>
-                        </div>
-                        <div class="price-product">
-                            <span>$120  <del>$150</del></span>
-                        </div>
-                    </a>
-                </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <a href="/assets/detail.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2019/06/11/10/56/girl-4266712_640.jpg"
+                    alt=""
+                  />
+                </a>
               </div>
-              <div class="box">
-                <div class="image">
-                    <a href="#">
-                        <img
-                        src="https://cdn.pixabay.com/photo/2016/10/31/02/29/woman-1784755_640.jpg"
-                        alt=""
-                      />
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="#">
-                        <div class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="rate">
-                          <div class="point">
-                            <i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                            ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                          </div>
-                          <span>5.0/5</span>
-                        </div>
-                        <div class="price-product">
-                            <span>$120  <del>$150</del></span>
-                        </div>
-                    </a>
-                </div>
+              <div class="content">
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
+                </a>
               </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <a href="/assets/detail.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2023/10/23/03/03/fashion-8335213_640.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="content">
+                <div class="float-label-grey">Sold Out</div>
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <a href="/assets/detail.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2016/10/16/04/05/girl-1744349_640.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="content">
+                <div class="float-label">HOT</div>
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <a href="/assets/detail.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2016/11/23/17/25/woman-1853939_640.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="content">
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="box">
+              <div class="image">
+                <a href="/assets/detail.html">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2016/10/31/02/29/woman-1784755_640.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="content">
+                <a href="/assets/detail.html">
+                  <div class="title">Lorem ipsum dolor sit amet.</div>
+                  <div class="rate">
+                    <div class="point">
+                      <i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                      ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                    </div>
+                    <span>5.0/5</span>
+                  </div>
+                  <div class="price-product">
+                    <span>$120 <del>$150</del></span>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- section 2  Man Outfit-->
-       <section class="man_outfit_container mt-5">  
-            <div class="title-section"><h1>Man Outfit</h1></div>
-            <div class="container-man-oufit mt-3">
-                <div class="box">
-                    <div class="image">
-                        <a href="#">
-                            <img
-                            src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721_640.jpg"
-                            alt=""
-                          />
-                        </a>
-                    </div>
-                    <div class="content">
-                        <div class="float-label">HOT</div>
-                        <a href="#">
-                            <div class="title">Lorem ipsum dolor sit amet.</div>
-                            <div class="rate">
-                              <div class="point">
-                                <i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                              </div>
-                              <span>5.0/5</span>
-                            </div>
-                            <div class="price-product">
-                                <span>$120  <del>$150</del></span>
-                            </div>
-                        </a>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="image">
-                        <a href="#">
-                            <img
-                            src="https://cdn.pixabay.com/photo/2020/11/30/17/21/businessman-5791566_640.jpg"
-                            alt=""
-                          />
-                        </a>
-                    </div>
-                    <div class="content">
-                        <a href="#">
-                            <div class="title">Lorem ipsum dolor sit amet.</div>
-                            <div class="rate">
-                              <div class="point">
-                                <i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                              </div>
-                              <span>5.0/5</span>
-                            </div>
-                            <div class="price-product">
-                                <span>$120  <del>$150</del></span>
-                            </div>
-                        </a>
-                    </div>
-                  </div>
-                  <div class="box">
-                    <div class="image">
-                        <a href="#">
-                            <img
-                            src="https://cdn.pixabay.com/photo/2020/02/05/14/05/man-4821291_640.jpg"
-                            alt=""
-                          />
-                        </a>
-                    </div>
-                    <div class="content">
-                        <a href="#">
-                            <div class="title">Lorem ipsum dolor sit amet.</div>
-                            <div class="rate">
-                              <div class="point">
-                                <i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                              </div>
-                              <span>5.0/5</span>
-                            </div>
-                            <div class="price-product">
-                                <span>$120  <del>$150</del></span>
-                            </div>
-                        </a>
-                    </div>
-                  </div>
-                  <div class="box">
-                      <div class="image">
-                        <a href="#">
-                            <img
-                            src="https://cdn.pixabay.com/photo/2016/11/22/22/25/groom-1850932_640.jpg"
-                            alt=""
-                          />
-                        </a>
-                    </div>
-                    <div class="content">
-                        <a href="#">
-                            <div class="title">Lorem ipsum dolor sit amet.</div>
-                            <div class="rate">
-                              <div class="point">
-                                <i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                              </div>
-                              <span>5.0/5</span>
-                            </div>
-                            <div class="price-product">
-                                <span>$120  <del>$150</del></span>
-                            </div>
-                        </a>
-                    </div>
-                  </div>
+      <section class="man_outfit_container mt-5">
+        <div class="title-section"><h1>Man Outfit</h1></div>
+        <div class="container-man-oufit mt-3">
+          <div class="box">
+            <div class="image">
+              <a href="/assets/detail.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2017/03/27/13/28/man-2178721_640.jpg"
+                  alt=""
+                />
+              </a>
             </div>
-       </section>
-
-
-            <!-- section 3  Assesory-->
-            <section class="man_outfit_container mt-3">  
-                <div class="title-section"><h1>Accessory</h1></div>
-                <div class="container-man-oufit mt-3">
-                    <div class="box">
-                        <div class="image">
-                            <a href="#">
-                                <img
-                                src="https://cdn.pixabay.com/photo/2024/05/04/12/34/book-8738994_640.png"
-                                alt=""
-                              />
-                            </a>
-                        </div>
-                        <div class="content">
-                            <div class="float-label">HOT</div>
-                            <a href="#">
-                                <div class="title">Lorem ipsum dolor sit amet.</div>
-                                <div class="rate">
-                                  <div class="point">
-                                    <i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                                  </div>
-                                  <span>5.0/5</span>
-                                </div>
-                                <div class="price-product">
-                                    <span>$120  <del>$150</del></span>
-                                </div>
-                            </a>
-                        </div>
-                      </div>
-                      <div class="box">
-                        <div class="image">
-                            <a href="#">
-                                <img
-                                src="https://cdn.pixabay.com/photo/2017/11/13/20/41/tie-2946772_640.jpg"
-                                alt=""
-                              />
-                            </a>
-                        </div>
-                        <div class="content">
-                            <a href="#">
-                                <div class="title">Lorem ipsum dolor sit amet.</div>
-                                <div class="rate">
-                                  <div class="point">
-                                    <i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                                  </div>
-                                  <span>5.0/5</span>
-                                </div>
-                                <div class="price-product">
-                                    <span>$120  <del>$150</del></span>
-                                </div>
-                            </a>
-                        </div>
-                      </div>
-                      <div class="box">
-                        <div class="image">
-                            <a href="#">
-                                <img
-                                src="https://cdn.pixabay.com/photo/2022/04/01/03/20/timepiece-7103973_640.jpg"
-                                alt=""
-                              />
-                            </a>
-                        </div>
-                        <div class="content">
-                            <a href="#">
-                                <div class="title">Lorem ipsum dolor sit amet.</div>
-                                <div class="rate">
-                                  <div class="point">
-                                    <i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                                  </div>
-                                  <span>5.0/5</span>
-                                </div>
-                                <div class="price-product">
-                                    <span>$120  <del>$150</del></span>
-                                </div>
-                            </a>
-                        </div>
-                      </div>
-                      <div class="box">
-                          <div class="image">
-                            <a href="#">
-                                <img
-                                src="https://cdn.pixabay.com/photo/2023/09/02/07/22/ai-generated-8228360_640.jpg"
-                                alt=""
-                              />
-                            </a>
-                        </div>
-                        <div class="content">
-                            <div class="float-label">HOT</div>
-                            <a href="#">
-                                <div class="title">Lorem ipsum dolor sit amet.</div>
-                                <div class="rate">
-                                  <div class="point">
-                                    <i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
-                                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
-                                  </div>
-                                  <span>5.0/5</span>
-                                </div>
-                                <div class="price-product">
-                                    <span>$120  <del>$150</del></span>
-                                </div>
-                            </a>
-                        </div>
-                      </div>
+            <div class="content">
+              <div class="float-label">HOT</div>
+              <a href="/assets/detail.html">
+                <div class="title">Lorem ipsum dolor sit amet.</div>
+                <div class="rate">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <span>5.0/5</span>
                 </div>
-           </section>
+                <div class="price-product">
+                  <span>$120 <del>$150</del></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <a href="/assets/detail.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2020/11/30/17/21/businessman-5791566_640.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="content">
+              <a href="/assets/detail.html">
+                <div class="title">Lorem ipsum dolor sit amet.</div>
+                <div class="rate">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <span>5.0/5</span>
+                </div>
+                <div class="price-product">
+                  <span>$120 <del>$150</del></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <a href="/assets/detail.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2020/02/05/14/05/man-4821291_640.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="content">
+              <a href="/assets/detail.html">
+                <div class="title">Lorem ipsum dolor sit amet.</div>
+                <div class="rate">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <span>5.0/5</span>
+                </div>
+                <div class="price-product">
+                  <span>$120 <del>$150</del></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <a href="/assets/detail.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/11/22/22/25/groom-1850932_640.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="content">
+              <a href="/assets/detail.html">
+                <div class="title">Lorem ipsum dolor sit amet.</div>
+                <div class="rate">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <span>5.0/5</span>
+                </div>
+                <div class="price-product">
+                  <span>$120 <del>$150</del></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-           
+      <!-- section 3  Assesory-->
+      <section class="man_outfit_container mt-3">
+        <div class="title-section"><h1>Accessory</h1></div>
+        <div class="container-man-oufit mt-3">
+          <div class="box">
+            <div class="image">
+              <a href="/assets/detail.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2024/05/04/12/34/book-8738994_640.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="content">
+              <div class="float-label">HOT</div>
+              <a href="/assets/detail.html">
+                <div class="title">Lorem ipsum dolor sit amet.</div>
+                <div class="rate">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <span>5.0/5</span>
+                </div>
+                <div class="price-product">
+                  <span>$120 <del>$150</del></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <a href="/assets/detail.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2017/11/13/20/41/tie-2946772_640.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="content">
+              <a href="/assets/detail.html">
+                <div class="title">Lorem ipsum dolor sit amet.</div>
+                <div class="rate">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <span>5.0/5</span>
+                </div>
+                <div class="price-product">
+                  <span>$120 <del>$150</del></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <a href="/assets/detail.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2022/04/01/03/20/timepiece-7103973_640.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="content">
+              <a href="/assets/detail.html">
+                <div class="title">Lorem ipsum dolor sit amet.</div>
+                <div class="rate">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <span>5.0/5</span>
+                </div>
+                <div class="price-product">
+                  <span>$120 <del>$150</del></span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <a href="/assets/detail.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2023/09/02/07/22/ai-generated-8228360_640.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="content">
+              <div class="float-label">HOT</div>
+              <a href="/assets/detail.html">
+                <div class="title">Lorem ipsum dolor sit amet.</div>
+                <div class="rate">
+                  <div class="point">
+                    <i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i
+                    ><i class="fa-solid fa-star" style="color: #ffd500"></i>
+                  </div>
+                  <span>5.0/5</span>
+                </div>
+                <div class="price-product">
+                  <span>$120 <del>$150</del></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="title-footer">
-            <img src="/assets/image/image-removebg-preview.png" alt="">
-          <span>TSuit.Fashion</span>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, hic.</p>
-        </div>
-  
-        <div class="info-footer">
-          <span >Information</span>
-          <a href="#">About</a>
-          <a href="#">Product</a>
-          <a href="#">Blog</a>
-        </div>
-        <div class="info-footer">
-          <span >Companny</span>
-          <a href="#">Community</a>
-          <a href="#">Career</a>
-          <a href="#">Our Story</a>
-        </div>
-        <div class="info-footer">
-          <span >Contact</span>
-          <a href="#">Getting Started</a><a href="#">Pricing</a><a href="#">Resources</a>
-        </div>
-      </footer>
+      <div class="title-footer">
+        <a href="/assets/index.html"><img src="/assets/image/image-removebg-preview.png" alt="" /></a>
+        <span>TSuit.Fashion</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
+          hic.
+        </p>
+      </div>
+
+      <div class="info-footer">
+        <span>Information</span>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="info-footer">
+        <span>Companny</span>
+        <a href="#">Community</a>
+        <a href="#">Career</a>
+        <a href="#">Our Story</a>
+      </div>
+      <div class="info-footer">
+        <span>Contact</span>
+        <a href="#">Getting Started</a><a href="#">Pricing</a
+        ><a href="#">Resources</a>
+      </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
